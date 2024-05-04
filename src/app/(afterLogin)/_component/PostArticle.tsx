@@ -15,7 +15,7 @@ type Props = {
       image: string,
     },
     createdAt: Date,
-    Images: unknown[],
+    Images: any[],
   }
 }
 

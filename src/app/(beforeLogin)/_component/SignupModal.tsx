@@ -41,19 +41,19 @@ export default function SignupModal() {
               <div className={style.inputDiv}>
                 <label className={style.inputLabel} htmlFor="id">아이디</label>
                 <input id="id" name="id" className={style.input} type="text" placeholder=""
-                     required
+                       required
                 />
               </div>
               <div className={style.inputDiv}>
                 <label className={style.inputLabel} htmlFor="name">닉네임</label>
                 <input id="name" name="name" className={style.input} type="text" placeholder=""
-                    required
+                       required
                 />
               </div>
               <div className={style.inputDiv}>
                 <label className={style.inputLabel} htmlFor="password">비밀번호</label>
                 <input id="password" name="password" className={style.input} type="password" placeholder=""
-                     required
+                       required
                 />
               </div>
               <div className={style.inputDiv}>
